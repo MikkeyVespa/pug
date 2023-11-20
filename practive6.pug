@@ -1,0 +1,20 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Hexlet Users
+  body
+    //- BEGIN (write your solution here)
+    each names, sign in contacts
+      if names.length
+        h2 #{sign}
+        ul
+          each name in names
+            li #{name.name} #{name.surname}
+      else
+        h2 #{sign}
+        ul
+          li Нет пользователей
+    //- END
