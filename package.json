@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mikkey Vespa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it": "^13.0.2"
+  }
 }
