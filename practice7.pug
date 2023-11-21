@@ -1,0 +1,11 @@
+mixin table(strs, data)
+  table
+    thead
+      tr
+        each str in strs
+          th #{str}
+    tbody
+      each element in data
+        tr
+          each el in element
+            td #{el}
